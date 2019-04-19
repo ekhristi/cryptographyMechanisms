@@ -9,15 +9,11 @@ total = a
 mString=bin(m)[2:]
 counter = 1
 
-#print(mString)
-
 for i in range(1, len(mString)):
     counter+=1
     total *= total
     if(mString[i] == '1'):
         total *= a
-#print("Answer is: "+str(total))
-#print("Number of Computations: "+str(counter))
 
 A = total%p
 
